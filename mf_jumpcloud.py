@@ -106,14 +106,9 @@ def get_suspended_users_with_managers():
             print(f'Suspended User: {suspended_user["displayname"].values[0]} - Manager: None')
 
 
-
-
-
-
-
-
-
-
-
-
-
+def get_suspended_users_without_managers():
+    suspended_users = get_suspended_users()
+    for suspended_user in suspended_users["id"]:
+        suspended_user = get_user_by_id(suspended_user)
+        if suspended_user["manager"].isnull().values[0]:
+            print(f'Suspended User: {suspended_user["displayname"].values[0]} - Manager: None')
