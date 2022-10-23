@@ -3,20 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/contractors.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/contractors_with_no_manager.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/oct_jc_devices.csv">
           <value>
             <Attribute>
@@ -31,7 +17,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/suspended_contractors.csv">
+        <entry key="/suspended_users.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
